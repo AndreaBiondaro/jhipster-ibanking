@@ -1,0 +1,61 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "gateway",
+    "applications": {
+      "bonifici": {
+        "applicationIndex": 2,
+        "serverPort": "8082"
+      },
+      "conti": {
+        "applicationIndex": 1,
+        "serverPort": "8081"
+      }
+    },
+    "authenticationType": "oauth2",
+    "baseName": "gateway",
+    "blueprints": [],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1646236632925,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "devServerPort": 9060,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entities": ["Conto", "Bonifico"],
+    "entitySuffix": "",
+    "gradleEnterpriseHost": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.7.0",
+    "jwtSecretKey": "NGY0YmQ0ZjllNDljZWIxYTE1Zjc2NzVkYTNjNjY1NjdjNThkM2ZlODM2OGY0OTk5ZTQ0MzU5MDk5YmI2Mzc3MGZhMjJmYjlkMjUyOWU5NjdmYjljNTY1MDY2OGJjZTQ1MjJlNTFkMDAzYzRhZGI5NWQ1NmQ4ZjU1OWFkMDAxZjg=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1646236752000,
+    "messageBroker": false,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "otherModules": [],
+    "packageFolder": "it/addvalue/ibanking/gateway",
+    "packageName": "it.addvalue.ibanking.gateway",
+    "pages": [],
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "searchEngine": false,
+    "serverPort": "8080",
+    "serviceDiscoveryType": "consul",
+    "skipCheckLengthOfIdentifier": false,
+    "skipCommitHook": true,
+    "skipFakeData": false,
+    "skipUserManagement": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
